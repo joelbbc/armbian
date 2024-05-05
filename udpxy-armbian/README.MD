@@ -13,9 +13,9 @@ How to Install
     -  sudo cp udpxy.service /etc/systemd/system/udpxy.service
 
 HOW TO RUN
--Default PORT 4022 
--Check status : http://udpxy_server_ip:4022/status
--if your multicast address 239.0.0.1:8000
--run in VLC Player 
--http://<udpxy_server_ip>:4022/239.0.0.1:8000
+-    Default PORT 4022 
+-    Check status : http://udpxy_server_ip:4022/status
+-    if your multicast address 239.0.0.1:8000
+-    run in VLC Player 
+-    http://<udpxy_server_ip>:4022/239.0.0.1:8000
 
