@@ -8,7 +8,7 @@ How to Install
 2.  Create udpxy config
     -  wget https://raw.githubusercontent.com/joelbbc/armbian/main/udpxy-armbian/udpxy.conf
     -  sudo cp udpxy.conf /etc/udpxy.conf
-3   Create Udpxy as service
+3.  Create Udpxy as service
     -  wget https://raw.githubusercontent.com/joelbbc/armbian/main/udpxy-armbian/udpxy.service
     -  sudo cp udpxy.service /etc/systemd/system/udpxy.service
 
