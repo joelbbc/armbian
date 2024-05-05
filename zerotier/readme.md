@@ -6,3 +6,5 @@ FIREWALL FORWARDING
                               -  sudo iptables -A FORWARD -i $ZT_IFACE -o $PHY_IFACE -j ACCEPT
 -  Simpan iptables agar berjalan ketika reboot: -  sudo apt install iptables-persistent
                                                 -  sudo bash -c iptables-save > /etc/iptables/rules.v4
+
+Referensi : https://n-tekno.web.id/stb-armbian-linux-sebagai-remote-server-zerotier/
