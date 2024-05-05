@@ -1,0 +1,2 @@
+-  Enable IP forwarding : sudo sysctl -w net.ipv4.ip_forward=1
+-  Configure iptables : PHY_IFACE=eth0; ZT_IFACE=ztmjfkb3mw   #ZT_IFACE=ztmjfkb3mw YOUR ZT Interface
