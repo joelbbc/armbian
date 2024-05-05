@@ -4,7 +4,7 @@ How to Install
     -  tar -xzvf udpxy-1.0.25-1.gz
     -  cd udpxy-1.0.25-1
     -  make 
-    -  su -c 'make install'
+    -  su -c 'make install'  
 2.  Create udpxy config
     -  wget https://raw.githubusercontent.com/joelbbc/armbian/main/udpxy-armbian/udpxy.conf
     -  sudo cp udpxy.conf /etc/udpxy.conf
