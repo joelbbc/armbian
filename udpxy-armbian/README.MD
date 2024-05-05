@@ -6,5 +6,16 @@ How to Install
     -  make 
     -  su -c 'make install'
 2.  Create udpxy config
-    -  nano /etc/udpxy.conf
-    -  copy 
+    -  wget https://raw.githubusercontent.com/joelbbc/armbian/main/udpxy-armbian/udpxy.conf
+    -  sudo cp udpxy.conf /etc/udpxy.conf
+3   Create Udpxy as service
+    -  wget https://raw.githubusercontent.com/joelbbc/armbian/main/udpxy-armbian/udpxy.service
+    -  sudo cp udpxy.service /etc/systemd/system/udpxy.service
+
+HOW TO RUN
+Default PORT 4022 
+Check status : http://udpxy_server_ip:4022/status
+if your multicast address 239.0.0.1:8000
+run in VLC Player 
+http://<udpxy_server_ip>:4022/239.0.0.1:8000
+
