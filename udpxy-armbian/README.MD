@@ -11,6 +11,9 @@ How to Install
 3.  Create Udpxy as service
     -  wget https://raw.githubusercontent.com/joelbbc/armbian/main/udpxy-armbian/udpxy.service
     -  sudo cp udpxy.service /etc/systemd/system/udpxy.service
+4.  - sudo systemctl daemon-reload
+    - sudo systemctl enable udpxy.service
+    - sudo systemctl start udpxy.service
 
 HOW TO RUN
 -    Default PORT 4022 
